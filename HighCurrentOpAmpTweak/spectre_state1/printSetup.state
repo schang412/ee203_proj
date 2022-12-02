@@ -1,0 +1,91 @@
+'(nil version 1.0 bBox ((0 38) (550 626)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1 tmp2 tmp3)
+tmp1 = nil
+tmp2 = nil
+tmp3 = nil
+list(tmp1 tmp2 tmp3)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1 tmp2 tmp3)
+tmp1 = nil
+tmp2 = nil
+tmp3 = nil
+list(tmp1 tmp2 tmp3)
+)
+printInfoDpl->expTable->expressions = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "OP(\"TN5.cwgs\" \"??\")"
+tmp2 = "OP(\"TN5.cwgd\" \"??\")"
+tmp3 = "OP(\"TN5.cwds\" \"??\")"
+list(tmp1 tmp2 tmp3)
+)
+printInfoDpl->expTable->aliases = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "OP(\"TN5.cwgs\" \"??\")"
+tmp2 = "OP(\"TN5.cwgd\" \"??\")"
+tmp3 = "OP(\"TN5.cwds\" \"??\")"
+list(tmp1 tmp2 tmp3)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "simple wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2)
+tmp1 = "signal                  OP(\"TN5.cwgs\" \"??\")     OP(\"TN5.cwgd\" \"??\")     OP(\"TN5.cwds\" \"??\") "
+tmp2 = "cap                     10a                     10a                     10a                     "
+list(tmp1 tmp2)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 20
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = (let
+(tmp1 tmp2 tmp3 tmp4)
+tmp1 = ""
+tmp2 = ""
+tmp3 = ""
+tmp4 = ""
+list(tmp1 tmp2 tmp3 tmp4)
+)
+printInfoDpl->waveNameList = (let
+(tmp1 tmp2 tmp3 tmp4)
+tmp1 = "signal"
+tmp2 = "OP(\"TN5.cwgs\" \"??\")"
+tmp3 = "OP(\"TN5.cwgd\" \"??\")"
+tmp4 = "OP(\"TN5.cwds\" \"??\")"
+list(tmp1 tmp2 tmp3 tmp4)
+)
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/home/linux/ieng6/ee203fa22/ee203fa22ag/simulation/HighCurrentOpAmpTweak/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/home/linux/ieng6/ee203fa22/ee203fa22ag/simulation/HighCurrentOpAmpTweak/spectre"
+printInfoDpl->context->dataDir = "/home/linux/ieng6/ee203fa22/ee203fa22ag/simulation/HighCurrentOpAmpTweak/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->simData = nil
+printInfoDpl->context->simulator = nil
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/home/linux/ieng6/ee203fa22/ee203fa22ag/ece203/HighCurrentOpAmpTweak/spectre_state1/printSetup.state"

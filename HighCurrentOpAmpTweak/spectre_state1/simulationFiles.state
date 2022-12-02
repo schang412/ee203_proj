@@ -1,0 +1,19 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles nil
+allDspfFiles nil
+allIncludedPaths ((t "/acsnfs3/software/IBM7RF/IBM_PDK/cmrf7sf/V2.0.0.2AM/Spectre/models"))
+allPspiceFiles nil
+allSpefFiles nil
+allStimulusFiles nil
+allVectorFiles nil
+definitionFiles nil
+dspfFile nil
+hlcheck "off"
+includePath "/acsnfs3/software/IBM7RF/IBM_PDK/cmrf7sf/V2.0.0.2AM/Spectre/models"
+pspiceFile nil
+spefFile nil
+stimulusFile nil
